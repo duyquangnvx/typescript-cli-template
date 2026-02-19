@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(/Users/vuduyquang/Documents/Personal/Code/typescript-cli-template/.specify/scripts/bash/create-new-feature.sh:*)",
+      "Bash(/Users/vuduyquang/Documents/Personal/Code/typescript-cli-template/.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(/Users/vuduyquang/Documents/Personal/Code/typescript-cli-template/.specify/scripts/bash/setup-plan.sh:*)",
+      "mcp__plugin_context7-plugin_context7__resolve-library-id",
+      "mcp__plugin_context7-plugin_context7__query-docs",
+      "Bash(/Users/vuduyquang/Documents/Personal/Code/typescript-cli-template/.specify/scripts/bash/update-agent-context.sh:*)",
+      "Bash(.specify/scripts/bash/check-prerequisites.sh:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(node dist/index.js:*)",
+      "Bash(echo:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(npx prettier:*)",
+      "Bash(npm pack:*)",
+      "Bash(for i in 1 2 3)",
+      "Bash(do /usr/bin/time -p node:*)",
+      "Bash(done)",
+      "Bash(node -e \"const { execSync } = require\\(''child_process''\\); const times = []; for \\(let i = 0; i < 5; i++\\) { const start = performance.now\\(\\); execSync\\(''node dist/index.js --help'', { stdio: ''pipe'' }\\); times.push\\(performance.now\\(\\) - start\\); } console.log\\(''Startup times \\(ms\\):'', times.map\\(t => t.toFixed\\(1\\)\\).join\\('', ''\\)\\); console.log\\(''Average:'', \\(times.reduce\\(\\(a,b\\) => a+b\\) / times.length\\).toFixed\\(1\\) + ''ms''\\);\")"
+    ]
+  }
+}
