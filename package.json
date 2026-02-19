@@ -1,5 +1,5 @@
 {
-    "name": "@duyquangnvx/typescript-cli-template",
+    "name": "my-cli-app",
     "version": "0.1.0",
     "description": "A production-ready TypeScript CLI template with Commander.js, Vitest, ESLint, and Prettier",
     "type": "module",
